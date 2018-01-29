@@ -14,6 +14,8 @@ bundesliga = ['Deutschland_1_Bundesliga', '1-bundesliga', 'L1']
 
 
 # Start selenium with the configured binary
+# additional help for setting up firefox as headless browser:
+# https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
 driver = webdriver.Firefox()
 random.seed()
 
