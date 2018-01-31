@@ -1,10 +1,10 @@
 from selenium import webdriver
+from numpy import random
 import pandas as pd
 import numpy as np
 import re
 import time
-import random
-
+import tab
 
 YEAR_START = 2000
 YEAR_STOP = 2017
